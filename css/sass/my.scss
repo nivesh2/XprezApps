@@ -1,0 +1,18 @@
+
+$a:100em;
+$red:#00ff44;
+
+.title{
+    color:$red;
+}
+
+
+#main{
+    width:$a;
+    
+    .p{
+        @extend .title;
+        background-color: #ff0000;
+    }
+}
+
